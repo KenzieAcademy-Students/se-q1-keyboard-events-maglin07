@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
   box.style.top = 0
 })
 
-window.addEventListener("keyup", (e) => {
+window.addEventListener("keydown", (e) => {
   switch (e.key) {
     case "ArrowLeft":
       box.style.left = parseInt(box.style.left) - move + "px"
