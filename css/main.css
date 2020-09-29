@@ -1,1 +1,29 @@
-/*  Put your CSS Here */
+#box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border: 1px solid black;
+  background-image: url("https://cdn.shopify.com/s/files/1/1061/1924/products/Pumpkin_Emoji_Icon_169be5a5-3354-4573-b327-5d69e23e8458_large.png?v=1571606092");
+  background-size: 100px;
+  left: 0;
+  top: 0;
+  animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {
+    background-color: black;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: green;
+  }
+  75% {
+    background-color: brown;
+  }
+  100% {
+    background-color: red;
+  }
+}
